@@ -22,6 +22,33 @@ Get daily mandi prices to make informed selling decisions.
 🗣️ Multilingual Support  
 Supports Telugu, Hindi, and English — built for accessibility and ease of use.
 
+Smart Raithu Sahayakudu
+├── Crop Management
+│   ├── Crop Recommendation
+│   └── Crop Info Table
+├── Weather Monitoring
+│   ├── Weather Alerts
+│   └── Weather Display
+├── Disease Detection
+│   ├── Image Upload
+│   ├── Analysis Results
+│   └── Photo Tips
+├── Fertilizer & Pest Suggestions
+│   ├── Fertilizer Schedule
+│   └── Pest Management
+├── Market Prices
+│   └── Market Prices Table
+├── Government Schemes
+│   └── Schemes Info Cards
+├── Voice Support (Telugu)
+│   ├── Telugu Dubbing
+│   └── Language Switcher
+├── Emergency Services
+│   └── Emergency Contact Access
+└── User Profile & Settings
+    ├── User Profile
+    └── Protected Route
+
 ---
 
  **🛠️ Tech Stack**
@@ -35,14 +62,105 @@ Supports Telugu, Hindi, and English — built for accessibility and ease of use.
 **📂 Project Structure**
 
 Smart-Farmer-App/
-│
-├── static/             # CSS, JS, images
-├── templates/          # HTML files
-├── dataset/            # Crop price, recommendation CSVs
-├── models/             # Trained .keras AI models
-├── app.py              # Backend server
-├── requirements.txt    # Python dependencies
-└── README.md
+├── .gitignore
+├── bun.lockb
+├── capacitor.config.ts
+├── components.json
+├── eslint.config.js
+├── index.html
+├── package-lock.json
+├── package.json
+├── postcss.config.js
+├── README.md
+├── tailwind.config.ts
+├── tsconfig.app.json
+├── tsconfig.json
+├── tsconfig.node.json
+├── vite.config.ts
+├── public/
+│   ├── favicon.ico
+│   ├── placeholder.svg
+│   └── robots.txt
+└── src/
+    ├── App.css
+    ├── App.tsx
+    ├── index.css
+    ├── main.tsx
+    ├── vite-env.d.ts
+    └── components/
+        ├── AppHeader.tsx
+        ├── CameraCapture.tsx
+        ├── CropInfoTable.tsx
+        ├── CropRecommendationSystem.tsx
+        ├── DubbableCard.tsx
+        ├── EmergencyContact.tsx
+        ├── EnhancedMobileNavigation.tsx
+        ├── FertilizerSchedule.tsx
+        ├── FloatingActionButton.tsx
+        ├── Footer.tsx
+        ├── GovernmentSchemes.tsx
+        ├── InteractiveTooltip.tsx
+        ├── LanguageSwitcher.tsx
+        ├── LoadingSkeletons.tsx
+        ├── MainContent.tsx
+        ├── MarketPricesTable.tsx
+        ├── MobileNavigation.tsx
+        ├── MobileOptimizations.tsx
+        ├── PestManagement.tsx
+        ├── ProgressIndicator.tsx
+        ├── ProtectedRoute.tsx
+        ├── QuickActions.tsx
+        ├── SetupChecker.tsx
+        ├── SwipeableCard.tsx
+        ├── TeluguDubbing.tsx
+        ├── UserProfile.tsx
+        ├── WeatherAlerts.tsx
+        ├── WeatherDisplay.tsx
+        ├── WelcomeSection.tsx
+        ├── disease-detection/
+        │   ├── AnalysisResults.tsx
+        │   ├── ImageUploadSection.tsx
+        │   └── PhotoTips.tsx
+        └── ui/
+            ├── accordion.tsx
+            ├── alert-dialog.tsx
+            ├── alert.tsx
+            ├── aspect-ratio.tsx
+            ├── avatar.tsx
+            ├── badge.tsx
+            ├── breadcrumb.tsx
+            ├── button.tsx
+            ├── calendar.tsx
+            ├── card.tsx
+            ├── carousel.tsx
+            ├── chart.tsx
+            ├── checkbox.tsx
+            ├── collapsible.tsx
+            ├── command.tsx
+            ├── context-menu.tsx
+            ├── dialog.tsx
+            ├── drawer.tsx
+            ├── dropdown-menu.tsx
+            ├── form.tsx
+            ├── hover-card.tsx
+            ├── input-otp.tsx
+            ├── input.tsx
+            ├── label.tsx
+            ├── menubar.tsx
+            ├── navigation-menu.tsx
+            ├── pagination.tsx
+            ├── popover.tsx
+            ├── progress.tsx
+            ├── radio-group.tsx
+            ├── resizable.tsx
+            ├── scroll-area.tsx
+            ├── select.tsx
+            ├── separator.tsx
+            ├── sheet.tsx
+            ├── sidebar.tsx
+            ├── skeleton.tsx
+            └── slider.tsx
+
 
 🌱 Why This Matters
 
